@@ -8,7 +8,7 @@ st.image('./img/Thipnapa.jpg')
 st.subheader("🌼Thipnapa Natsawang🌼")
 
 dt=pd.read_csv('./data/iris-3.csv')
-st.header("ข้อมูลดอกไม้ 🌻")
+st.header("ข้อมูลดอกไม้")
 st.write(dt.head(10))
 
 st.subheader("สถิติข้อมูลดอกไม้ Iris")
