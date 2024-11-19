@@ -36,12 +36,12 @@ cl13.write(dt['petallength'].mean())
 cl14.write(dt['petalwidth'].mean())
 
 st.write("Area_Chart")
-a=dt['sepal.length'].mean()
-b=dt['sepal.width'].mean()
-c=dt['petal.length'].mean()
-d=dt['petal.width'].mean()
+a=dt['sepallength'].mean()
+b=dt['sepalwidth'].mean()
+c=dt['petallength'].mean()
+d=dt['petalwidth'].mean()
 dxt=[a,b,c,d]
-cxx=pd.DataFrame(dxt,index=["sepal.length", "sepal.width", "petal.length","petal.width"])
+cxx=pd.DataFrame(dxt,index=["sepallength", "sepalwidth", "petallength","petalwidth"])
 st.area_chart(cxx)
 
 
