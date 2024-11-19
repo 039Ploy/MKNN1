@@ -1,11 +1,11 @@
 import streamlit as st
-import pandes as pd
+import pandas as pd
 
-st.title("❤️🧸Website Developing using Python🧸❤️")
-st.header("🎈🎈Website Developing using Python🎈🎈")
+st.title("❤️❤️Website Developing using Python❤️❤️")
+st.header("🚗🚗Website Developing using Python🚗🚗")
 
 st.image('./img/Thipnapa.jpg')
-st.subheader("🌼Thipnapa Natsawang🌼") 
+st.subheader("Thipnapa Natswang")
 
 dt=pd.read_csv('./data/iris-3.csv')
 st.header()
